@@ -20,6 +20,8 @@ if ( ! function_exists( 'renommeio_setup' ) ) :
  * support post thumbnails.
  */
 function renommeio_setup() {
+	// WordPress Titles
+	add_theme_support( 'title-tag' );
 
 	add_theme_support('post-thumbnails');
 

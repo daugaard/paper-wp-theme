@@ -5,7 +5,7 @@
   <div class="hero" style="background-image: url('<?php the_post_thumbnail_url( 'large' ); ?>');">
     <div class="hero-light-blue-filter">
       <div class="container hero-text">
-        <h2><?php the_title(); ?></h2>
+        <h1><?php the_title(); ?></h1>
         <p class="hero-meta"><?php the_date(); ?> by <a href="#"><?php the_author(); ?></a></p>
 
       </div>
