@@ -1,0 +1,76 @@
+/*
+Theme Name: Renomme.io Blog
+Theme URI: http://blog.renomme.io
+Author: Soren Daugaatd
+Author URI: http://ineptum.dk/
+Description: Custom theme for blog.renomme.io.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+*/
+
+.hero {
+  background-size: cover;
+  background-color: #eee;
+  min-height: 250px;
+  margin-top: -23px;
+  margin-bottom: 15px;
+}
+
+.hero-light-blue-filter {
+  background-color: rgba(33,150,243,0.8);
+  min-height: 250px;
+  width: 100%;
+}
+
+.hero-text h2 {
+  color: white;
+  padding-top: 50px;
+}
+
+.hero-meta {
+  color: white;
+}
+
+.hero-meta > a {
+  color: white;
+  font-weight: bold;
+}
+
+.blog-post-meta {
+  margin-top: 10px;
+}
+
+.widget-header {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sidebar-widget {
+  padding: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover > .blog-post-title {
+  color: #2196f3;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+}
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
