@@ -25,6 +25,13 @@
          <?php the_content(); ?>
 
       </div><!-- /.blog-post -->
+
+<?php
+      if ( comments_open() || get_comments_number() ) :
+	      comments_template();
+       endif;
+?>
+  
     </div><!-- /.blog-main -->
 
     <?php get_sidebar(); ?>

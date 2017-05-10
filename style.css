@@ -63,14 +63,56 @@ a:hover > .blog-post-title {
   color: #2196f3;
 }
 
-.alignright {
-    display: inline;
-    float: right;
-    margin-left: 1.5em;
+.comment-body {
+  padding: 24px 0;
+  position: relative;
+  clear: both;
+  overflow: hidden;
+  border-bottom: 1px solid #E7E7E7;
 }
 
-.alignleft {
-    display: inline;
-    float: left;
-    margin-right: 1.5em;
+.comment-author img {
+  float: left;
+  margin: 5px 15px 5px 5px;
 }
+
+.comment-author {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.comment-body > .reply {
+  float: right;
+}
+
+.comment-meta a {
+  color: #a2a2a2;
+  font-size: 13px;
+}
+
+.comment-submit-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul.comment-list {
+  -webkit-padding-start: 0px;
+}
+
+li.comment {
+  list-style: none;
+}
+
+
+textarea#comment {
+  background-color: #f8f8f8;
+}
+
+/* Wordpress Image Styles */
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
