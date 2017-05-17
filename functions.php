@@ -32,6 +32,7 @@ function renommeio_setup() {
 		'primary' => __( 'Primary Menu', 'renomme' )
 	) );
 
+	add_editor_style( 'editor-style.css' );
 
 }
 add_action( 'after_setup_theme', 'renommeio_setup' );
