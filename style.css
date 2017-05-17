@@ -104,10 +104,18 @@ li.comment {
   list-style: none;
 }
 
-
 textarea#comment {
   background-color: #f8f8f8;
 }
+
+body {
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
 
 /* Wordpress Image Styles */
 img.alignright {float:right; margin:0 0 1em 1em}
