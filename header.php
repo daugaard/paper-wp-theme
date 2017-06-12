@@ -34,7 +34,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo get_bloginfo( 'wpurl' );?>" title="<?php echo get_bloginfo( 'description' ); ?>" ><i class="fa fa-bullseye"></i> <?php echo get_bloginfo( 'name' ); ?></a>
+          <a class="navbar-brand" href="<?php echo get_bloginfo( 'wpurl' );?>" title="<?php echo get_bloginfo( 'description' ); ?>" ><i class="fa fa-rocket"></i> <?php echo get_bloginfo( 'name' ); ?></a>
         </div>
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
           <?php wp_nav_menu( array( 'menu'   => 'primary', 'menu_class' => 'nav navbar-nav', 'container' => false )); ?>
