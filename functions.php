@@ -66,6 +66,16 @@ function renommeio_widgets_init() {
 				'after_title'   => '</p>',
 		) );
 
+		register_sidebar( array(
+				'name'          => __( 'Before Comments', 'renommeio' ),
+				'id'            => 'before-comments',
+				'before_widget' => '<div id="%1$s" class="sidebar-widget %2$s">',
+				'after_widget'  => '</div>',
+				'before_title'  => '<p class="widget-header">',
+				'after_title'   => '</p>',
+		) );
+
+
 }
 add_action( 'widgets_init', 'renommeio_widgets_init' );
 
