@@ -69,7 +69,7 @@ function renommeio_widgets_init() {
 		register_sidebar( array(
 				'name'          => __( 'Before Comments', 'renommeio' ),
 				'id'            => 'before-comments',
-				'before_widget' => '<div id="%1$s" class="sidebar-widget %2$s">',
+				'before_widget' => '<div id="%1$s" class="commentbar-widget %2$s">',
 				'after_widget'  => '</div>',
 				'before_title'  => '<p class="widget-header">',
 				'after_title'   => '</p>',

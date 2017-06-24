@@ -51,6 +51,14 @@ Tags:
   padding: 20px;
 }
 
+.commentbar-widget {
+  padding-top: 20px;
+}
+
+.commentbar-widget .well h2,h3,h4 {
+  margin-top: 0px;
+}
+
 .right {
   text-align: right;
 }
